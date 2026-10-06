@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Lab4_SamahEva</string>
+    <string name="gondor">Gondor</string>
+    <string name="rohan">Rohan</string>
+    <string name="mordor">Mordor</string>
+    <string name="anillo_unico">El Anillo Único</string>
 </resources>
