@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/AnilloU" />
+        app:srcCompat="@drawable/anillo_u" />
 
     <ImageView
         android:id="@+id/GondorIg"
@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.654"
-        app:srcCompat="@drawable/Gondor" />
+        app:srcCompat="@drawable/gondor" />
 
     <ImageView
         android:id="@+id/RohanIg"
@@ -40,7 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.489"
-        app:srcCompat="@drawable/Rohan" />
+        app:srcCompat="@drawable/rohan" />
 
     <ImageView
         android:id="@+id/mordorIg"
@@ -52,5 +52,5 @@
         app:layout_constraintStart_toEndOf="@+id/anilloIg"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498"
-        app:srcCompat="@drawable/Mordor" />
+        app:srcCompat="@drawable/mordor" />
 </androidx.constraintlayout.widget.ConstraintLayout>

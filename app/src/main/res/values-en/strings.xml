@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Middle-earth World Map</string>
+    <string name="gondor">Gondor</string>
+    <string name="rohan">Rohan</string>
+    <string name="mordor">Mordor</string>
+    <string name="anillo_unico">The One Ring</string>
+</resources>

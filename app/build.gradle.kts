@@ -4,13 +4,14 @@ plugins {
 }
 
 android {
-    namespace = "com.isengard.lab4_samaheva"
-    compileSdk = 34
+    namespace = "com.example.Lab4_SamahEva"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.isengard.lab4_samaheva"
+        applicationId = "com.example.Lab4_SamahEva"
         minSdk = 24
-        targetSdk = 34
+        //noinspection EditedTargetSdkVersion
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -20,29 +21,24 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "11"
     }
 }
 
 dependencies {
-
-    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.material)
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(libs.androidx.junit)
 }
