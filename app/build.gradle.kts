@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.Lab4_SamahEva"
+    namespace = "com.example.lab4_samaheva"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.Lab4_SamahEva"
+        applicationId = "com.example.lab4_samaheva"
         minSdk = 24
         //noinspection EditedTargetSdkVersion
         targetSdk = 35
