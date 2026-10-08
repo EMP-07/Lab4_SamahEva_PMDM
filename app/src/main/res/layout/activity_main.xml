@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/anilloIg"
+        android:id="@+id/anillo"
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,10 +19,10 @@
         app:srcCompat="@drawable/anillo_u" />
 
     <ImageView
-        android:id="@+id/GondorIg"
+        android:id="@+id/gondor"
         android:layout_width="90dp"
         android:layout_height="90dp"
-        app:layout_constraintBottom_toTopOf="@+id/anilloIg"
+        app:layout_constraintBottom_toTopOf="@+id/anillo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,11 +31,11 @@
         app:srcCompat="@drawable/gondor" />
 
     <ImageView
-        android:id="@+id/RohanIg"
+        android:id="@+id/rohan"
         android:layout_width="90dp"
         android:layout_height="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/anilloIg"
+        app:layout_constraintEnd_toStartOf="@+id/anillo"
         app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -43,13 +43,13 @@
         app:srcCompat="@drawable/rohan" />
 
     <ImageView
-        android:id="@+id/mordorIg"
+        android:id="@+id/mordor"
         android:layout_width="90dp"
         android:layout_height="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.764"
-        app:layout_constraintStart_toEndOf="@+id/anilloIg"
+        app:layout_constraintStart_toEndOf="@+id/anillo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/mordor" />

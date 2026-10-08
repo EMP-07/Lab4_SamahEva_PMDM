@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lab4_samaheva"
+    namespace = "com.isengard.lab4_samaheva"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.lab4_samaheva"
+        applicationId = "com.isengard.lab4_samaheva"
         minSdk = 24
         //noinspection EditedTargetSdkVersion
         targetSdk = 35
